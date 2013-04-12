@@ -5,7 +5,8 @@
 #       Copyright 2010 Fitra Aditya <fitra@idmail.or.id>
 #		Modified (1) 2011 Ari Effendi <zerosix06@gmail.com>
 #		Modified (2) 2011 Abd Azis Ws <ul2albab@gmail.com>
-#       
+#               modified (3) 2013 Raviyanto Ahmad <raviyanto@gmail.com>
+
 #		Powered by BlankOn Linux Developer (2010)
 #
 #       BlankOn Zakat Calculator is free software; you can redistribute it and/or modify
@@ -23,14 +24,14 @@
 #       MA 02110-1301, USA.
 
 try:
-	import pygtk  
+	import pygtk, sys  
 	pygtk.require("2.0")
 except:  
 	pass
 try:
 	import gtk
 except:  
-	print("GTK Not Availible")
+	print("GTK Not Available")
 	sys.exit(1)
 
 gaji1		= 0
@@ -379,7 +380,8 @@ class ZaCalc(object):
 			self.clear_value(self)
 
 	def show_about(self, widget):
-		a=["Fitra Aditya <fitra@idmail.or.id>","Ari Effendi <zerosix06@gmail.com>","Abd Azis Ws <ul2albab@gmail.com>"]
+		authors = ["Fitra Aditya <fitra@idmail.or.id>","Ari Effendi <zerosix06@gmail.com>",
+		"Abd Azis Ws <ul2albab@gmail.com>", "Raviyanto Ahmad <raviyanto@gmail.com>"]
 		translate = """Alfian Fahmi <ketua@surabaya.di.blankon.in>"""
 		design = ["Abd Azis Ws <ul2albab@gmail.com>"]
 		
@@ -389,7 +391,7 @@ class ZaCalc(object):
 		about.set_copyright("(c) 2011 BlankOn Linux")
 		about.set_comments("BlankOn Zakat Calculator is Moslem tool to calculate the amount of zakat must be spent every year or every month")
 		about.set_website("http://www.blankonlinux.or.id")
-		about.set_authors(a)
+		about.set_authors(authors)
 		about.set_translator_credits(translate)
 		about.set_artists(design)
 		about.set_license(license)
