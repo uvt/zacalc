@@ -1,0 +1,5 @@
+*.py /usr/share/zacalc/
+*.desktop /usr/share/applications/
+zacalc.png /usr/share/icons/
+logo.png /usr/share/zacalc/
+zacalc /usr/bin/

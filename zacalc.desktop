@@ -1,0 +1,13 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=BlankOn Zakat Kalkulator 
+Comment=Aplikasi Pengira Perhitungan Zakat
+Exec=zacalc
+Icon=zacalc
+Terminal=false
+Type=Application
+Categories=X-Islamic-Software;X-Zacalc;
+StartupNotify=true
+#X-Ubuntu-Gettext-Domain=zacalc
+

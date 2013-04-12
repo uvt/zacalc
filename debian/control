@@ -1,0 +1,17 @@
+Source: zacalc
+Section: python
+Priority: extra
+Maintainer: Raviyanto Ahmad <raviyanto@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://github.com/zerosix06/zacalc-gtk
+Vcs-Git: git://github.com/zerosix06/zacalc-gtk.git
+Vcs-Browser: http://dev.blankonlinux.or.id/browser/rote/zacalc
+Vcs-bzr: http://dev.blankonlinux.or.id/bzr/rote/zacalc
+
+Package: zacalc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-gtk2, islamic-menus
+Description: zakat calculator
+ BlankOn Zakat Kalculator is tool to calculate 
+ the amount of zakat must be spent every year or every month
