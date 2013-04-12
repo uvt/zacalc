@@ -24,12 +24,12 @@
 #       MA 02110-1301, USA.
 
 try:
-	import pygtk, sys  
+	import pygtk  
 	pygtk.require("2.0")
 except:  
 	pass
 try:
-	import gtk
+	import gtk, sys
 except:  
 	print("GTK Not Available")
 	sys.exit(1)
@@ -53,6 +53,11 @@ You should have received a copy of the GNU General Public License
 along with BlankOn Zakat Calculator; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 MA 02110-1301, USA."""
+
+authors = ["Fitra Aditya <fitra@idmail.or.id>","Ari Effendi <zerosix06@gmail.com>",
+          "Abd Azis Ws <ul2albab@gmail.com>", "Raviyanto Ahmad <raviyanto@gmail.com>"]
+translate = """Alfian Fahmi <ketua@surabaya.di.blankon.in>"""
+design = ["Abd Azis Ws <ul2albab@gmail.com>"]
 
 class ZaCalc(object):
 	
@@ -380,11 +385,6 @@ class ZaCalc(object):
 			self.clear_value(self)
 
 	def show_about(self, widget):
-		authors = ["Fitra Aditya <fitra@idmail.or.id>","Ari Effendi <zerosix06@gmail.com>",
-		"Abd Azis Ws <ul2albab@gmail.com>", "Raviyanto Ahmad <raviyanto@gmail.com>"]
-		translate = """Alfian Fahmi <ketua@surabaya.di.blankon.in>"""
-		design = ["Abd Azis Ws <ul2albab@gmail.com>"]
-		
 		about = gtk.AboutDialog()
 		about.set_program_name("BlankOn Zakat Calculator")
 		about.set_version("1.3")
