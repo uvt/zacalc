@@ -11,7 +11,7 @@ Vcs-bzr: http://dev.blankonlinux.or.id/bzr/rote/zacalc
 
 Package: zacalc
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, python-gtk2, islamic-menus
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-gtk2
 Description: zakat calculator
- BlankOn Zakat Kalculator is tool to calculate 
+ BlankOn Zakat Kalkulator is tool to calculate 
  the amount of zakat must be spent every year or every month
