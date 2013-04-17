@@ -1,4 +1,3 @@
-
 [Desktop Entry]
 Encoding=UTF-8
 Name=BlankOn Zakat Kalkulator 
@@ -7,7 +6,7 @@ Exec=zacalc
 Icon=zacalc
 Terminal=false
 Type=Application
-Categories=X-Islamic-Software;X-Zacalc;
+Categories=Peralatan-UVT;
 StartupNotify=true
 #X-Ubuntu-Gettext-Domain=zacalc
 
