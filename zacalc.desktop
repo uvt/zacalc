@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=BlankOn Zakat Kalkulator 
-Comment=Aplikasi Pengira Perhitungan Zakat
+Comment=Aplikasi Perhitungan Zakat
 Exec=zacalc
 Icon=zacalc
 Terminal=false
